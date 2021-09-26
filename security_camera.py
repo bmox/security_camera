@@ -46,7 +46,7 @@ def overlay_transparent(background, overlay, x, y):
 
 
 cap = cv2.VideoCapture(0)
-# cap = cv2.VideoCapture("http://192.168.31.186:4747/video")
+
 try:
     os.mkdir("temp")
 except:
